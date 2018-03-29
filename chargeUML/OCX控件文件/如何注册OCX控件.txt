@@ -1,0 +1,14 @@
+开始----运行   
+      中输入   
+  regsvr32   你的控件名.ocx   
+    
+  中的例子   
+      后按确定即可   
+  不过先要把这个.ocx文件放在c:\windows\system32目录下
+
+  regsvr32的用法：
+  regsvr32 [/u] [/s] [/n] [/i[:cmdline]] dllnamme
+  /u --解除服务器注册  
+  /s --无声；不显示消息框
+  /i --调用DllInstall，给其传递一个可选[cmdline]；跟/u一起使用时，卸载dll
+  /n --不要调用DllRegisterServer；这个选项必须跟/i一起使用
