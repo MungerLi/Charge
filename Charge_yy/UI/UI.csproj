@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52A706D0-FE1E-441B-9BAB-3073C6307F56}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin4, Version=2006.3.22.45, Culture=neutral, PublicKeyToken=127be25a6db25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IrisSkin4.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="billCheckOut.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>billCheckOut.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="billCheckOut2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>billCheckOut2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="chargeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>chargeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="chargeDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>chargeDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="chargeDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>chargeDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="chargeDataSet3check_chargeCard.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>chargeDataSet3check_chargeCard.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="chargeMoneyDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>chargeMoneyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="chargeMoneyDateSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>chargeMoneyDateSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Charge_info.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Charge_info.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="check_buyCard.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>check_buyCard.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="check_returnCard.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>check_returnCard.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EmptyUIcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmptyUIcs.Designer.cs">
+      <DependentUpon>EmptyUIcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="管理员\frmAddUer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理员\frmAddUer.Designer.cs">
+      <DependentUpon>frmAddUer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="管理员\FrmaddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理员\FrmaddUser.Designer.cs">
+      <DependentUpon>FrmaddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserDateSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserDateSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="操作员\frmCharge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="操作员\frmCharge.Designer.cs">
+      <DependentUpon>frmCharge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="操作员\frmAddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="操作员\frmAddStudent.Designer.cs">
+      <DependentUpon>frmAddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="管理员\frmBasicDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理员\frmBasicDate.Designer.cs">
+      <DependentUpon>frmBasicDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="管理员\frmBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理员\frmBill.Designer.cs">
+      <DependentUpon>frmBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="管理员\frmCheckOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理员\frmCheckOut.Designer.cs">
+      <DependentUpon>frmCheckOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="操作员\frmGroupOperator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="操作员\frmGroupOperator.Designer.cs">
+      <DependentUpon>frmGroupOperator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGroupQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGroupQuery.Designer.cs">
+      <DependentUpon>frmGroupQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="操作员\frmModifyStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="操作员\frmModifyStudent.Designer.cs">
+      <DependentUpon>frmModifyStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOn.Designer.cs">
+      <DependentUpon>frmOn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="操作员\frmOnlineQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="操作员\frmOnlineQuery.Designer.cs">
+      <DependentUpon>frmOnlineQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="一般用户\frmOnlineStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="一般用户\frmOnlineStatus.Designer.cs">
+      <DependentUpon>frmOnlineStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="操作员\frmStudentGroupQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="操作员\frmStudentGroupQ.Designer.cs">
+      <DependentUpon>frmStudentGroupQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lineInfoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lineInfoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="onlineDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>onlineDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="操作员\frmAddCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="操作员\frmAddCard.Designer.cs">
+      <DependentUpon>frmAddCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="操作员\frmQueryRMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="操作员\frmQueryRMoney.Designer.cs">
+      <DependentUpon>frmQueryRMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnMoney.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReturnMoney.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="操作员\frmQueryMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="操作员\frmQueryMoney.Designer.cs">
+      <DependentUpon>frmQueryMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="一般用户\frmChargeRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="一般用户\frmChargeRecord.Designer.cs">
+      <DependentUpon>frmChargeRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="一般用户\frmOnlineRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="一般用户\frmOnlineRecord.Designer.cs">
+      <DependentUpon>frmOnlineRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="一般用户\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="一般用户\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="一般用户\frmMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="一般用户\frmMoney.Designer.cs">
+      <DependentUpon>frmMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="一般用户\frmStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="一般用户\frmStudent.Designer.cs">
+      <DependentUpon>frmStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="一般用户\frmModifyPWD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="一般用户\frmModifyPWD.Designer.cs">
+      <DependentUpon>frmModifyPWD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EmptyUIcs.resx">
+      <DependentUpon>EmptyUIcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="管理员\frmAddUer.resx">
+      <DependentUpon>frmAddUer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="管理员\FrmaddUser.resx">
+      <DependentUpon>FrmaddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="操作员\frmCharge.resx">
+      <DependentUpon>frmCharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="操作员\frmAddStudent.resx">
+      <DependentUpon>frmAddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="管理员\frmBasicDate.resx">
+      <DependentUpon>frmBasicDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="管理员\frmBill.resx">
+      <DependentUpon>frmBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="管理员\frmCheckOut.resx">
+      <DependentUpon>frmCheckOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="操作员\frmGroupOperator.resx">
+      <DependentUpon>frmGroupOperator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGroupQuery.resx">
+      <DependentUpon>frmGroupQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="操作员\frmModifyStudent.resx">
+      <DependentUpon>frmModifyStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOn.resx">
+      <DependentUpon>frmOn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="操作员\frmOnlineQuery.resx">
+      <DependentUpon>frmOnlineQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一般用户\frmOnlineStatus.resx">
+      <DependentUpon>frmOnlineStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="操作员\frmStudentGroupQ.resx">
+      <DependentUpon>frmStudentGroupQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="操作员\frmAddCard.resx">
+      <DependentUpon>frmAddCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="操作员\frmQueryRMoney.resx">
+      <DependentUpon>frmQueryRMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="操作员\frmQueryMoney.resx">
+      <DependentUpon>frmQueryMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一般用户\frmChargeRecord.resx">
+      <DependentUpon>frmChargeRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一般用户\frmOnlineRecord.resx">
+      <DependentUpon>frmOnlineRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一般用户\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一般用户\frmMoney.resx">
+      <DependentUpon>frmMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一般用户\frmStudent.resx">
+      <DependentUpon>frmStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一般用户\frmModifyPWD.resx">
+      <DependentUpon>frmModifyPWD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="billCheckOut.xsc">
+      <DependentUpon>billCheckOut.xsd</DependentUpon>
+    </None>
+    <None Include="billCheckOut.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>billCheckOut.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="billCheckOut.xss">
+      <DependentUpon>billCheckOut.xsd</DependentUpon>
+    </None>
+    <None Include="billCheckOut2.xsc">
+      <DependentUpon>billCheckOut2.xsd</DependentUpon>
+    </None>
+    <None Include="billCheckOut2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>billCheckOut2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="billCheckOut2.xss">
+      <DependentUpon>billCheckOut2.xsd</DependentUpon>
+    </None>
+    <None Include="chargeDataSet.xsc">
+      <DependentUpon>chargeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="chargeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>chargeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="chargeDataSet.xss">
+      <DependentUpon>chargeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="chargeDataSet1.xsc">
+      <DependentUpon>chargeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="chargeDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>chargeDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="chargeDataSet1.xss">
+      <DependentUpon>chargeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="chargeDataSet2.xsc">
+      <DependentUpon>chargeDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="chargeDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>chargeDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="chargeDataSet2.xss">
+      <DependentUpon>chargeDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="chargeDataSet3check_chargeCard.xsc">
+      <DependentUpon>chargeDataSet3check_chargeCard.xsd</DependentUpon>
+    </None>
+    <None Include="chargeDataSet3check_chargeCard.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>chargeDataSet3check_chargeCard.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="chargeDataSet3check_chargeCard.xss">
+      <DependentUpon>chargeDataSet3check_chargeCard.xsd</DependentUpon>
+    </None>
+    <None Include="chargeMoneyDataSet.xsc">
+      <DependentUpon>chargeMoneyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="chargeMoneyDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>chargeMoneyDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="chargeMoneyDataSet.xss">
+      <DependentUpon>chargeMoneyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="chargeMoneyDateSet.xsc">
+      <DependentUpon>chargeMoneyDateSet.xsd</DependentUpon>
+    </None>
+    <None Include="chargeMoneyDateSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>chargeMoneyDateSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="chargeMoneyDateSet.xss">
+      <DependentUpon>chargeMoneyDateSet.xsd</DependentUpon>
+    </None>
+    <None Include="Charge_info.xsc">
+      <DependentUpon>Charge_info.xsd</DependentUpon>
+    </None>
+    <None Include="Charge_info.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Charge_info.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Charge_info.xss">
+      <DependentUpon>Charge_info.xsd</DependentUpon>
+    </None>
+    <None Include="check_buyCard.xsc">
+      <DependentUpon>check_buyCard.xsd</DependentUpon>
+    </None>
+    <None Include="check_buyCard.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>check_buyCard.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="check_buyCard.xss">
+      <DependentUpon>check_buyCard.xsd</DependentUpon>
+    </None>
+    <None Include="check_returnCard.xsc">
+      <DependentUpon>check_returnCard.xsd</DependentUpon>
+    </None>
+    <None Include="check_returnCard.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>check_returnCard.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="check_returnCard.xss">
+      <DependentUpon>check_returnCard.xsd</DependentUpon>
+    </None>
+    <None Include="lineInfoDataSet.xsc">
+      <DependentUpon>lineInfoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="lineInfoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lineInfoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lineInfoDataSet.xss">
+      <DependentUpon>lineInfoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="onlineDataSet.xsc">
+      <DependentUpon>onlineDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="onlineDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>onlineDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="onlineDataSet.xss">
+      <DependentUpon>onlineDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ReturnMoney.xsc">
+      <DependentUpon>ReturnMoney.xsd</DependentUpon>
+    </None>
+    <None Include="ReturnMoney.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReturnMoney.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReturnMoney.xss">
+      <DependentUpon>ReturnMoney.xsd</DependentUpon>
+    </None>
+    <None Include="UserDateSet.xsc">
+      <DependentUpon>UserDateSet.xsd</DependentUpon>
+    </None>
+    <None Include="UserDateSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UserDateSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UserDateSet.xss">
+      <DependentUpon>UserDateSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{6ab94925-419d-4d5b-8222-a32bf82c51c4}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facade\Facade.csproj">
+      <Project>{c9841c88-cb05-450d-bb2c-7471f9cb6aa4}</Project>
+      <Name>Facade</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel1">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
