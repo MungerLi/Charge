@@ -8,13 +8,13 @@ namespace Entity
 {
     public class User_Info
     {
-        private string _UserID;
+        private int _UserID;
         private string _PassWord;
         private string _Levels;
         private string _UserName;
         private bool _state;
 
-        public string UserID
+        public int UserID
         {
             get
             {

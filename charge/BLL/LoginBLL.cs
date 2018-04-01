@@ -19,7 +19,7 @@ namespace BLL
 
             DataTable table = idal.selectUser(user_Info);
 
-            if (table.Rows.Count = 0)
+            if (table.Rows.Count == 0)
             {
                 flag = false;
             }
