@@ -1,0 +1,7 @@
+F:\计算机\机房重构\chargeYY\Charge_yy\IDal\bin\Release\IDal.dll
+F:\计算机\机房重构\chargeYY\Charge_yy\IDal\bin\Release\IDal.pdb
+F:\计算机\机房重构\chargeYY\Charge_yy\IDal\bin\Release\Entity.dll
+F:\计算机\机房重构\chargeYY\Charge_yy\IDal\bin\Release\Entity.pdb
+F:\计算机\机房重构\chargeYY\Charge_yy\IDal\obj\Release\IDal.csprojResolveAssemblyReference.cache
+F:\计算机\机房重构\chargeYY\Charge_yy\IDal\obj\Release\IDal.dll
+F:\计算机\机房重构\chargeYY\Charge_yy\IDal\obj\Release\IDal.pdb
