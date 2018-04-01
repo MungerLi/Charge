@@ -1,0 +1,11 @@
+F:\计算机\机房重构\chargeYY\Charge_yy\BLL\bin\Release\BLL.dll
+F:\计算机\机房重构\chargeYY\Charge_yy\BLL\bin\Release\BLL.pdb
+F:\计算机\机房重构\chargeYY\Charge_yy\BLL\bin\Release\Entity.dll
+F:\计算机\机房重构\chargeYY\Charge_yy\BLL\bin\Release\Factory.dll
+F:\计算机\机房重构\chargeYY\Charge_yy\BLL\bin\Release\IDal.dll
+F:\计算机\机房重构\chargeYY\Charge_yy\BLL\bin\Release\Entity.pdb
+F:\计算机\机房重构\chargeYY\Charge_yy\BLL\bin\Release\Factory.pdb
+F:\计算机\机房重构\chargeYY\Charge_yy\BLL\bin\Release\IDal.pdb
+F:\计算机\机房重构\chargeYY\Charge_yy\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+F:\计算机\机房重构\chargeYY\Charge_yy\BLL\obj\Release\BLL.dll
+F:\计算机\机房重构\chargeYY\Charge_yy\BLL\obj\Release\BLL.pdb

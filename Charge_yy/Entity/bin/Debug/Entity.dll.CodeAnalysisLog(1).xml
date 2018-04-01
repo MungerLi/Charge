@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 11.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="11.0">
+ <Targets>
+  <Target Name="F:\01TGB\01计算机学习\2.CS学习\C#机房个人重构\Charge_yy\Entity\bin\Debug\Entity.dll">
+   <Modules>
+    <Module Name="entity.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="Bill" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Finalize()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RemoveEmptyFinalizers" Category="Microsoft.Performance" CheckId="CA1821" Status="Active" Created="2017-12-13 01:41:54Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="f:\01TGB\01计算机学习\2.CS学习\C#机房个人重构\Charge_yy\Entity" File="Bill.cs" Line="29">'Bill' 实现一个只调用按条件发出的方法或基类型终结器的终结器。请移除该终结器或确保它只能按条件编译到程序集内。如果此冲突是针对完全包装在按条件发出的代码块中的终结器发生的，请禁止显示此消息。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Entity">
+       <Types>
+        <Type Name="BasicData" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Finalize()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RemoveEmptyFinalizers" Category="Microsoft.Performance" CheckId="CA1821" Status="Active" Created="2017-12-13 01:41:54Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="f:\01TGB\01计算机学习\2.CS学习\C#机房个人重构\Charge_yy\Entity" File="BasicData.cs" Line="39">'BasicData' 实现一个只调用按条件发出的方法或基类型终结器的终结器。请移除该终结器或确保它只能按条件编译到程序集内。如果此冲突是针对完全包装在按条件发出的代码块中的终结器发生的，请禁止显示此消息。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Card" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Finalize()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RemoveEmptyFinalizers" Category="Microsoft.Performance" CheckId="CA1821" Status="Active" Created="2017-12-13 01:41:54Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="f:\01TGB\01计算机学习\2.CS学习\C#机房个人重构\Charge_yy\Entity" File="Card.cs" Line="36">'Card' 实现一个只调用按条件发出的方法或基类型终结器的终结器。请移除该终结器或确保它只能按条件编译到程序集内。如果此冲突是针对完全包装在按条件发出的代码块中的终结器发生的，请禁止显示此消息。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Charge" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Finalize()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RemoveEmptyFinalizers" Category="Microsoft.Performance" CheckId="CA1821" Status="Active" Created="2017-12-13 01:41:54Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="f:\01TGB\01计算机学习\2.CS学习\C#机房个人重构\Charge_yy\Entity" File="Charge.cs" Line="36">'Charge' 实现一个只调用按条件发出的方法或基类型终结器的终结器。请移除该终结器或确保它只能按条件编译到程序集内。如果此冲突是针对完全包装在按条件发出的代码块中的终结器发生的，请禁止显示此消息。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="line" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Finalize()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RemoveEmptyFinalizers" Category="Microsoft.Performance" CheckId="CA1821" Status="Active" Created="2017-12-13 01:41:54Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="f:\01TGB\01计算机学习\2.CS学习\C#机房个人重构\Charge_yy\Entity" File="line.cs" Line="43">'line' 实现一个只调用按条件发出的方法或基类型终结器的终结器。请移除该终结器或确保它只能按条件编译到程序集内。如果此冲突是针对完全包装在按条件发出的代码块中的终结器发生的，请禁止显示此消息。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ReturnCard" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Finalize()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RemoveEmptyFinalizers" Category="Microsoft.Performance" CheckId="CA1821" Status="Active" Created="2017-12-13 01:41:54Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="f:\01TGB\01计算机学习\2.CS学习\C#机房个人重构\Charge_yy\Entity" File="ReturnCard.cs" Line="34">'ReturnCard' 实现一个只调用按条件发出的方法或基类型终结器的终结器。请移除该终结器或确保它只能按条件编译到程序集内。如果此冲突是针对完全包装在按条件发出的代码块中的终结器发生的，请禁止显示此消息。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Student" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Finalize()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RemoveEmptyFinalizers" Category="Microsoft.Performance" CheckId="CA1821" Status="Active" Created="2017-12-13 01:41:54Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="f:\01TGB\01计算机学习\2.CS学习\C#机房个人重构\Charge_yy\Entity" File="Student.cs" Line="36">'Student' 实现一个只调用按条件发出的方法或基类型终结器的终结器。请移除该终结器或确保它只能按条件编译到程序集内。如果此冲突是针对完全包装在按条件发出的代码块中的终结器发生的，请禁止显示此消息。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="User" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Finalize()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RemoveEmptyFinalizers" Category="Microsoft.Performance" CheckId="CA1821" Status="Active" Created="2017-12-13 01:41:54Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="f:\01TGB\01计算机学习\2.CS学习\C#机房个人重构\Charge_yy\Entity" File="User.cs" Line="32">'User' 实现一个只调用按条件发出的方法或基类型终结器的终结器。请移除该终结器或确保它只能按条件编译到程序集内。如果此冲突是针对完全包装在按条件发出的代码块中的终结器发生的，请禁止显示此消息。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WorkLog" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Finalize()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RemoveEmptyFinalizers" Category="Microsoft.Performance" CheckId="CA1821" Status="Active" Created="2017-12-13 01:41:54Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="f:\01TGB\01计算机学习\2.CS学习\C#机房个人重构\Charge_yy\Entity" File="WorkLog.cs" Line="37">'WorkLog' 实现一个只调用按条件发出的方法或基类型终结器的终结器。请移除该终结器或确保它只能按条件编译到程序集内。如果此冲突是针对完全包装在按条件发出的代码块中的终结器发生的，请禁止显示此消息。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="RemoveEmptyFinalizers" Category="Microsoft.Performance" CheckId="CA1821">
+   <Name>移除空终结器</Name>
+   <Description>应尽可能避免使用终结器，以避免跟踪对象生存期时产生附加的性能系统开销。</Description>
+   <Resolution Name="Default">{0} 实现一个只调用按条件发出的方法或基类型终结器的终结器。请移除该终结器或确保它只能按条件编译到程序集内。如果此冲突是针对完全包装在按条件发出的代码块中的终结器发生的，请禁止显示此消息。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264476(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="11.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="Certainty">确定性</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="ExpandAll">全部展开</String>
+  <String Key="Help">帮助</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">消息</String>
+  <String Key="LocationNotStoredInPdb">[位置未存储在 Pdb 中]</String>
+  <String Key="Project">项目</String>
+  <String Key="Resolution">解析</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleFile">规则文件</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Status">状态</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">代码分析报告</String>
+ </Localized>
+</FxCopReport>

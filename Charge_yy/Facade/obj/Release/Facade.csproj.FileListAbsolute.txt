@@ -1,0 +1,13 @@
+F:\计算机\机房重构\chargeYY\Charge_yy\Facade\bin\Release\Facade.dll
+F:\计算机\机房重构\chargeYY\Charge_yy\Facade\bin\Release\Facade.pdb
+F:\计算机\机房重构\chargeYY\Charge_yy\Facade\bin\Release\BLL.dll
+F:\计算机\机房重构\chargeYY\Charge_yy\Facade\bin\Release\Entity.dll
+F:\计算机\机房重构\chargeYY\Charge_yy\Facade\bin\Release\Factory.dll
+F:\计算机\机房重构\chargeYY\Charge_yy\Facade\bin\Release\IDal.dll
+F:\计算机\机房重构\chargeYY\Charge_yy\Facade\bin\Release\BLL.pdb
+F:\计算机\机房重构\chargeYY\Charge_yy\Facade\bin\Release\Entity.pdb
+F:\计算机\机房重构\chargeYY\Charge_yy\Facade\bin\Release\Factory.pdb
+F:\计算机\机房重构\chargeYY\Charge_yy\Facade\bin\Release\IDal.pdb
+F:\计算机\机房重构\chargeYY\Charge_yy\Facade\obj\Release\Facade.csprojResolveAssemblyReference.cache
+F:\计算机\机房重构\chargeYY\Charge_yy\Facade\obj\Release\Facade.dll
+F:\计算机\机房重构\chargeYY\Charge_yy\Facade\obj\Release\Facade.pdb

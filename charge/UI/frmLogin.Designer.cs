@@ -32,7 +32,7 @@
             this.lblCancel = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.txtUserID = new System.Windows.Forms.TextBox();
             this.txtPassWord = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -73,12 +73,12 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "密码：";
             // 
-            // txtUserName
+            // txtUserID
             // 
-            this.txtUserName.Location = new System.Drawing.Point(195, 63);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(100, 21);
-            this.txtUserName.TabIndex = 4;
+            this.txtUserID.Location = new System.Drawing.Point(195, 63);
+            this.txtUserID.Name = "txtUserID";
+            this.txtUserID.Size = new System.Drawing.Size(100, 21);
+            this.txtUserID.TabIndex = 4;
             // 
             // txtPassWord
             // 
@@ -93,7 +93,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(378, 266);
             this.Controls.Add(this.txtPassWord);
-            this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.txtUserID);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblCancel);
@@ -111,7 +111,7 @@
         private System.Windows.Forms.Button lblCancel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox txtUserID;
         private System.Windows.Forms.TextBox txtPassWord;
     }
 }
