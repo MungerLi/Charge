@@ -1,0 +1,39 @@
+
+---------- ERD to Data Modeling ----------
+Package
+{
+ name="Domain ModelDataModeling"
+ namespaceroot="true"
+	Table
+	{
+		XRef{namespace="ERD to Data Modeling" name="Table" source="{414BED7B-B9A5-442a-9A79-67AE06E024B2}"}
+		notes=""
+  scope="Public"
+  multiplicity=""
+  version="1.0"
+  author="¿Ó«‡À…"
+  alias=""
+  name="User_Info"
+  complexity="1"
+  concurrency=""
+  persistence=""
+  arguments=""
+  phase="1.0"
+  status="Proposed"
+  visibility=""
+  cardinality=""
+		language=""
+		
+		
+		
+		
+			PrimaryKey
+			{
+				
+			}
+		
+		
+			
+	}
+	
+}
