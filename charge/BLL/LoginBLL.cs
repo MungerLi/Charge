@@ -17,9 +17,9 @@ namespace BLL
 
             IDAL.LoginIDAL idal = fact.CreaterUser();
 
-            DataTable table = idal.selectUser(user_Info);
+            IList<Entity.User_Info> table = idal.selectUser(user_Info);
 
-            if (table.Rows.Count == 0)
+            if (table.Count == 0)
             {
                 flag = false;
             }

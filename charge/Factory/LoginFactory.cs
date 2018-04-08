@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
+using DAL;
 
 namespace Factory
 {
@@ -15,6 +16,7 @@ namespace Factory
         {
             string ClassName = StrDB + "." + "LoginDAL";
             return (IDAL.LoginIDAL)Assembly.Load(StrDB).CreateInstance(ClassName);
+            //DAL.LoginDAL loginDAL
         }
     }
 }

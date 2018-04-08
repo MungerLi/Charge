@@ -9,6 +9,6 @@ namespace IDAL
 {
     public interface  LoginIDAL
     {
-        DataTable selectUser(Entity.User_Info user_Info);
+        IList<Entity.User_Info> selectUser(Entity.User_Info user_Info);
     }
 }

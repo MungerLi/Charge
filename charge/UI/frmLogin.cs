@@ -28,8 +28,8 @@ namespace UI
                 MessageBox.Show("请填写密码！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
-            try
-            {
+            //try
+            //{
                 //实例化外观
                 Facade.LoginFacade FLogin = new Facade.LoginFacade();
 
@@ -39,6 +39,7 @@ namespace UI
                 user.PassWord = txtUserID.Text.Trim();
 
                 Boolean flag = false;
+                flag = FLogin.SelectUser (user);
 
                 if (flag != false)
                 {
@@ -53,11 +54,12 @@ namespace UI
                     MessageBox.Show("用户名或密码错误！");
                 }
 
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            //}
+           // catch (Exception ex)
+            //{
+              //  Console.WriteLine(ex.Message);
+                //throw new Exception ("登录失败！");
+           // }
         }
     }
 }

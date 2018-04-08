@@ -1,0 +1,12 @@
+E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\DAL\bin\Debug\DAL.dll
+E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\DAL\bin\Debug\DAL.pdb
+E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\DAL\bin\Debug\Entity.dll
+E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\DAL\bin\Debug\IDAL.dll
+E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\DAL\bin\Debug\Entity.pdb
+E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\DAL\bin\Debug\IDAL.pdb
+E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\DAL\obj\Debug\DAL.dll
+E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\DAL\obj\Debug\DAL.pdb
+E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\UI\bin\Debug\DAL.dll
+E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\UI\bin\Debug\DAL.pdb
