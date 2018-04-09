@@ -18,7 +18,7 @@ namespace DAL
 {
     public class sqlhelper
     {
-        public static string Connstring = ConfigurationManager.ConnectionStrings["SQLServer"].ToString(); //接收配置文件的连接内容
+        public static string Connstring = ConfigurationManager.ConnectionStrings["ConnStr"].ToString(); //接收配置文件的连接内容
        
         /// <summary>
         /// 有参数的查询

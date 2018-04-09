@@ -28,10 +28,10 @@ namespace DAL
         {
 
             //SqlParameter[] sqlParams = { new SqlParameter("@userID", user_Info.UserID), new SqlParameter("@pwd", user_Info.PassWord) };
-            SqlParameter[] sqlParams = { new SqlParameter("@userID", user_Info.UserID)};
+            SqlParameter[] sqlParams = { new SqlParameter("@UserID", user_Info.UserID)};
             
-            string sql = @"select * from User_Info where UserID=@UserID ";
-            DataTable table = DAL.sqlhelper.GetDatable(sql, CommandType.Text, sqlParams);
+            string sql = "select * from User_Info where UserID=@UserID ";
+            DataTable table =DAL.sqlhelper.GetDatable(sql, CommandType.Text, sqlParams);
             
             IList<Entity.User_Info> user = DAL.CovertHelper<Entity.User_Info>.ConvertToModel(table);
             return user;
