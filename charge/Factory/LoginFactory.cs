@@ -10,7 +10,9 @@ namespace Factory
 {
     public class LoginFactory
     {
-        string StrDB = System.Configuration.ConfigurationManager.AppSettings["DB"];
+        //当是appsettings的时候用
+        //string StrDB = System.Configuration.ConfigurationManager.AppSettings["DB"];
+        string StrDB = System.Configuration.ConfigurationManager.ConnectionStrings["DB"].ToString();
 
         public IDAL.LoginIDAL CreaterUser()
         {

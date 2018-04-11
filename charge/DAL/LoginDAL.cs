@@ -12,6 +12,7 @@ namespace DAL
 {
     public class LoginDAL:IDAL.LoginIDAL 
     {
+        #region
         //public DataTable slectUser(User_Info user_Info)
         //{
         //    SqlParameter[] sqlParams = { new SqlParameter("@userID", user_Info.UserID), new SqlParameter("@PassWord", user_Info.UserName) };
@@ -19,10 +20,7 @@ namespace DAL
         //    DataTable table = sqlhelper.ExecuteNonquery(sql, CommandType.Text, sqlParams);
         //    return table;
         //}
-        //public IList<Entity.User_Info> SelectUser(Entity.User_Info User)
-        //{
-            
-        //}
+#endregion
 
         IList<User_Info> LoginIDAL.selectUser(User_Info user_Info)
         {

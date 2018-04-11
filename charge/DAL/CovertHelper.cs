@@ -53,7 +53,13 @@ namespace DAL
                        if (!pi.CanWrite) continue;
                        object value = dr[tempName];
 
-                       if (value != DBNull.Value)
+                        if (value != DBNull.Value)
+                        {
+                            if (pi.GetMethod.ReturnParameter.ParameterType.Name == "Int32")
+                            {
+                                value = Convert.ToInt32(value);
+                            }
+                        }
                            pi.SetValue(t, value, null);
                        
                    }
