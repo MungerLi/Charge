@@ -1,11 +1,4 @@
-﻿/****************************
- * 文件名：CovertHelper
- * 命名空间：DAL
- * 版本号：V1.0.0.0
- * 创建人：$刘雅雯$
- * 创建时间：2017/1/8 14:49:47
- * 修改日志：
-*****************************/
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
