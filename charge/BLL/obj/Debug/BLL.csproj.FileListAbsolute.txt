@@ -10,3 +10,16 @@ E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\BLL\bin\
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\BLL\bin\Debug\IDAL.pdb
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\BLL\obj\Debug\BLL.dll
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\BLL\obj\Debug\BLL.pdb
+D:\11\charge\BLL\bin\Debug\BLL.dll
+D:\11\charge\BLL\bin\Debug\BLL.pdb
+D:\11\charge\BLL\bin\Debug\Entity.dll
+D:\11\charge\BLL\bin\Debug\Factory.dll
+D:\11\charge\BLL\bin\Debug\IDAL.dll
+D:\11\charge\BLL\bin\Debug\Entity.pdb
+D:\11\charge\BLL\bin\Debug\Factory.pdb
+D:\11\charge\BLL\bin\Debug\IDAL.pdb
+D:\11\charge\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\11\charge\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\11\charge\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\11\charge\BLL\obj\Debug\BLL.dll
+D:\11\charge\BLL\obj\Debug\BLL.pdb

@@ -10,3 +10,10 @@ E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\DAL\obj\
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\DAL\obj\Debug\DAL.pdb
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\UI\bin\Debug\DAL.dll
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\UI\bin\Debug\DAL.pdb
+D:\11\charge\UI\bin\Debug\DAL.dll
+D:\11\charge\UI\bin\Debug\DAL.pdb
+D:\11\charge\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\11\charge\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\11\charge\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\11\charge\DAL\obj\Debug\DAL.dll
+D:\11\charge\DAL\obj\Debug\DAL.pdb

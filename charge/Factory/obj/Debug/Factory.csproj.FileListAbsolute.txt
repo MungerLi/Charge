@@ -10,3 +10,16 @@ E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\Factory\
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\Factory\obj\Debug\Factory.pdb
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\Factory\bin\Debug\DAL.dll
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\Factory\bin\Debug\DAL.pdb
+D:\11\charge\Factory\bin\Debug\Factory.dll
+D:\11\charge\Factory\bin\Debug\Factory.pdb
+D:\11\charge\Factory\bin\Debug\DAL.dll
+D:\11\charge\Factory\bin\Debug\Entity.dll
+D:\11\charge\Factory\bin\Debug\IDAL.dll
+D:\11\charge\Factory\bin\Debug\DAL.pdb
+D:\11\charge\Factory\bin\Debug\Entity.pdb
+D:\11\charge\Factory\bin\Debug\IDAL.pdb
+D:\11\charge\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+D:\11\charge\Factory\obj\Debug\Factory.csproj.CoreCompileInputs.cache
+D:\11\charge\Factory\obj\Debug\Factory.csproj.CopyComplete
+D:\11\charge\Factory\obj\Debug\Factory.dll
+D:\11\charge\Factory\obj\Debug\Factory.pdb
