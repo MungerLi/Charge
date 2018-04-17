@@ -6,3 +6,12 @@ E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\IDAL\obj
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\IDAL\obj\Debug\IDAL.csproj.CoreCompileInputs.cache
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\IDAL\obj\Debug\IDAL.dll
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\IDAL\obj\Debug\IDAL.pdb
+D:\11\charge\IDAL\bin\Debug\IDAL.dll
+D:\11\charge\IDAL\bin\Debug\IDAL.pdb
+D:\11\charge\IDAL\bin\Debug\Entity.dll
+D:\11\charge\IDAL\bin\Debug\Entity.pdb
+D:\11\charge\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\11\charge\IDAL\obj\Debug\IDAL.csproj.CoreCompileInputs.cache
+D:\11\charge\IDAL\obj\Debug\IDAL.csproj.CopyComplete
+D:\11\charge\IDAL\obj\Debug\IDAL.dll
+D:\11\charge\IDAL\obj\Debug\IDAL.pdb

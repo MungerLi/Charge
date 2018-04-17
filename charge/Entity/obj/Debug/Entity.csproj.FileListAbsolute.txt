@@ -3,3 +3,7 @@ E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\Entity\b
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\Entity\obj\Debug\Entity.dll
 E:\01--MyselfStudy\03--ComputerProjectFiles\03--Charge\Charge-ML\Charge\Entity\obj\Debug\Entity.pdb
+D:\11\charge\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+D:\11\charge\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+D:\11\charge\Entity\obj\Debug\Entity.dll
+D:\11\charge\Entity\obj\Debug\Entity.pdb
