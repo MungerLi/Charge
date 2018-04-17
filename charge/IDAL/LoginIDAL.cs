@@ -11,4 +11,11 @@ namespace IDAL
     {
         IList<Entity.User_Info> selectUser(Entity.User_Info user_Info);
     }
+
+    public interface ModifyPWD
+    {
+        bool modify(string UserName, string PassWord);
+    }
+   
+
 }

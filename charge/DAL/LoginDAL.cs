@@ -20,8 +20,9 @@ namespace DAL
         //    DataTable table = sqlhelper.ExecuteNonquery(sql, CommandType.Text, sqlParams);
         //    return table;
         //}
-#endregion
+        #endregion
 
+#region 登录
         IList<User_Info> LoginIDAL.selectUser(User_Info user_Info)
         {
 
@@ -35,5 +36,18 @@ namespace DAL
             return user;
             
         }
+        #endregion
+
+        #region 修改密码
+        public bool ModifyPWD(string UserName,string PassWord)
+        {
+            
+            //SqlParameter[] sqlParms = { new SqlParameter ("@UserID",UserName ,)}
+            SqlParameter[] sqlParams = { new SqlParameter("@UserID", UserName ),new SqlParameter("@Password",PassWord) };
+            string sql=@"updata User_Info set Password=@userPWD where UserID=@UserID";
+            return sqlhelper.ExecuteNonquery(sql, CommandType.Text, sqlParams);
+           
+        }
+        #endregion 
     }
 }

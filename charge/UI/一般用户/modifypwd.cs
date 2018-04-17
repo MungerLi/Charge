@@ -17,18 +17,24 @@ namespace UI.一般用户
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void lblOK_Click(object sender, EventArgs e)
         {
+            foreach (Control control in this.Controls)
+            {
+                if (control.Text.Trim() == "")
+                {
+                    MessageBox.Show("请将信息输入完整", "提示");
+                    control.Focus();
+                    return;
+                }
+                if (txtNewPWD.Text.Trim() != txtNewPWDT.Text.Trim())
+                {
+                    MessageBox.Show("两次密码不一致", "提示");
+                    control.Focus();
+                    return;
+                }
+            }
 
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
 
         }
     }
